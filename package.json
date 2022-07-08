@@ -1,7 +1,7 @@
 {
   "name": "blog-apps",
   "private": true,
-  "homepage": "https://radikaBadra.github.io/blog-apps",
+  "homepage": "https://RadikaBadra.github.io",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
