@@ -287,7 +287,8 @@ header nav ul #burger-button {
 
 @media only screen and (max-width: 600px) {
   .container {
-    width: 28.125rem;
+    width: 20.125rem;
+    background-color: red;
   }
   header {
     margin-top: 2%;
