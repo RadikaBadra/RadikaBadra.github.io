@@ -6,7 +6,7 @@
 
 body {
   // overflow: hidden;
-  background-color: #ffffff;
+  background-color: #000000;
   overflow-x: hidden;
   //   overflow: hidden;
   //   width: 100%;
@@ -228,12 +228,12 @@ header {
     align-items: center;
     justify-content: space-between;
     color: white;
-   .title{
-    margin-bottom: 2rem;
-    h1 {
-      font-size: 3.75rem;
+    .title {
+      margin-bottom: 2rem;
+      h1 {
+        font-size: 3.75rem;
+      }
     }
-   }
 
     .button {
       button {
