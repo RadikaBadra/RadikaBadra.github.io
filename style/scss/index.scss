@@ -228,10 +228,13 @@ header {
     align-items: center;
     justify-content: space-between;
     color: white;
-    
+   .title{
+    margin-bottom: 2rem;
     h1 {
       font-size: 3.75rem;
     }
+   }
+
     .button {
       button {
         padding: 0.6rem;
