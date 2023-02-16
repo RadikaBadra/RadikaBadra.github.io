@@ -1,0 +1,425 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #000000;
+  overflow-x: hidden;
+}
+
+.body-bg {
+  display: flex;
+  justify-content: center;
+  background-image: url("/storage/images/blue_bg.svg");
+  background-repeat: no-repeat;
+}
+
+.container {
+  padding: 1%;
+  width: 67.5rem;
+}
+
+.display-none {
+  display: none;
+}
+
+.pop-up-menu {
+  overflow: hidden;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+}
+.pop-up-menu ul {
+  background-color: #0b0d7b;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.pop-up-menu ul li {
+  display: inline;
+}
+.pop-up-menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 2rem;
+}
+.pop-up-menu ul li .socials {
+  margin-top: 3rem;
+  display: flex;
+  gap: 2rem;
+  color: rgb(255, 255, 255);
+}
+.pop-up-menu ul button {
+  cursor: pointer;
+  position: absolute;
+  top: 2%;
+  right: 3%;
+  background-color: transparent;
+  border: none;
+}
+.pop-up-menu ul button i {
+  font-size: 2rem;
+  color: white;
+}
+
+header nav {
+  width: 100%;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li .menu {
+  width: 27.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+header nav ul li .menu a {
+  font-weight: normal;
+  color: white;
+  text-decoration: none;
+}
+header nav ul li .socials {
+  width: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header nav ul #burger-button {
+  display: none;
+}
+
+.hero {
+  color: white;
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 6.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.hero .title {
+  margin-top: 0.9rem;
+  width: 35rem;
+}
+.hero .title p {
+  font-size: 50px;
+  margin-bottom: 0.625rem;
+}
+.hero .title span {
+  font-size: 0.8rem;
+}
+.hero img {
+  margin-top: 1.875rem;
+}
+
+.achievements {
+  height: 100px;
+  color: gray;
+  padding: 0.625rem;
+  display: flex;
+  justify-content: space-between;
+}
+.achievements .content {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.achievements #number {
+  font-weight: bolder;
+  font-size: 5rem;
+}
+.achievements #text {
+  font-size: 1.875rem;
+  width: 8.875rem;
+}
+
+.services {
+  width: 100%;
+  margin-top: 3.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.services .left-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 48%;
+  height: 33.75rem;
+}
+.services .left-container h1 {
+  font-size: 3.75rem;
+  margin-bottom: 1rem;
+}
+.services .left-container p {
+  width: 80%;
+}
+.services .left-container button {
+  width: 40%;
+  padding: 1rem;
+  background-color: #0b0d7b;
+  color: white;
+  font-weight: bold;
+  border-radius: 2rem;
+}
+.services .right-container {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 2.75rem;
+}
+.services .right-container .card {
+  width: 29rem;
+  display: flex;
+  justify-content: start;
+  background-color: white;
+  gap: 3.75rem;
+  align-items: center;
+  padding: 0.8rem;
+}
+.services .right-container .card .image {
+  width: 4.688rem;
+  height: 4.688rem;
+  background-color: rgb(151, 151, 151);
+}
+.services .right-container .card .text p {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+}
+
+.portofolio {
+  margin-top: 3.75rem;
+  width: 100%;
+  height: 500px;
+}
+.portofolio .portofolio-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 3.75rem;
+}
+.portofolio .portofolio-head h1 {
+  font-size: 3.75rem;
+}
+.portofolio .portofolio-head .button button {
+  padding: 0.6rem;
+  width: 5.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+.portofolio .portofolio-head .button .active {
+  background-color: #0b0d7b;
+  color: white;
+  border: none;
+}
+.portofolio .portofolio-container::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.portofolio .portofolio-container {
+  width: 100%;
+  height: 500px;
+  margin-top: 3.125rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none;
+}
+.portofolio .portofolio-container .portofolio-card {
+  width: 31.25rem;
+  height: 25.5rem;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.portofolio .portofolio-container .portofolio-card .card-content {
+  width: 90%;
+  height: 90%;
+}
+.portofolio .portofolio-container .portofolio-card .card-content .card-images {
+  width: 100%;
+  height: 14.375rem;
+  background-color: gray;
+}
+.portofolio .portofolio-container .portofolio-card .card-content .card-button {
+  top: -12%;
+  position: relative;
+  width: 96%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.portofolio .portofolio-container .portofolio-card .card-content .card-button button {
+  background-color: transparent;
+  border: none;
+}
+.portofolio .portofolio-container .portofolio-card .card-content .card-title {
+  position: relative;
+  top: -17%;
+  width: 100%;
+}
+.portofolio .portofolio-container .portofolio-card .card-content .card-title h1 {
+  font-size: 3rem;
+  margin-bottom: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 28.125rem;
+  }
+  header {
+    margin-top: 2%;
+    margin-bottom: 18%;
+  }
+  header nav {
+    width: 100%;
+  }
+  header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header nav ul li {
+    display: inline-block;
+  }
+  header nav ul li .menu {
+    display: none;
+  }
+  header nav ul li .socials {
+    display: none;
+  }
+  header nav ul li img {
+    width: 80px;
+  }
+  header nav ul #burger-button {
+    display: block;
+  }
+  header nav ul #burger-button button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+  header nav ul #burger-button button i {
+    color: white;
+  }
+  .hero {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .hero .title {
+    margin-top: 0.9rem;
+    width: 28rem;
+  }
+  .hero .title p {
+    font-size: 2rem;
+    margin-bottom: 0.625rem;
+  }
+  .hero .title span {
+    font-size: 0.6rem;
+  }
+  .hero img {
+    margin-top: 1.875rem;
+  }
+  .achievements {
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.3rem;
+  }
+  .achievements .content {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .achievements #number {
+    font-weight: bolder;
+    font-size: 2.4rem;
+  }
+  .achievements #text {
+    font-size: 0.6rem;
+    width: 3.875rem;
+  }
+  .services {
+    width: 100%;
+    margin-top: 3.75rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .services .left-container {
+    width: 90%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 33.75rem;
+  }
+  .services .left-container h1 {
+    font-size: 3.75rem;
+    margin-bottom: 1rem;
+  }
+  .services .left-container p {
+    width: 80%;
+  }
+  .services .left-container button {
+    width: 40%;
+    padding: 1rem;
+    background-color: #0b0d7b;
+    color: white;
+    font-weight: bold;
+    border-radius: 2rem;
+  }
+  .services .right-container {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .services .right-container .card {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    gap: 3.75rem;
+    align-items: center;
+  }
+  .services .right-container .card .image {
+    width: 4.688rem;
+    height: 4.688rem;
+    background-color: rgb(151, 151, 151);
+  }
+  .services .right-container .card .text p {
+    margin-top: 0.4rem;
+    font-size: 0.8rem;
+  }
+  .portofolio .portofolio-head {
+    flex-wrap: wrap;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

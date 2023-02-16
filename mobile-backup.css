@@ -1,0 +1,127 @@
+/* .container {
+    //     // display: flex;
+    //     // flex-direction: column;
+    //     // align-items: center;
+    //     padding: 1%;
+    //     max-width: 600px;
+    //   }
+    //   header {
+    //     nav {
+    //       width: 100%;
+    //       ul {
+    //         display: flex;
+    //         align-items: center;
+    //         justify-content: space-between;
+    //         li {
+    //           display: inline-block;
+    //           .menu {
+    //             display: none;
+    //           }
+    //         }
+    //         .socials {
+    //           display: none;
+    //         }
+    //       }
+    //       #burger-button {
+    //         display: none;
+    //       }
+    //     }
+    //   }
+    // }
+    
+    // .hero {
+    //   margin-top: 2rem;
+    //   margin-bottom: 1.5rem;
+    //   .title {
+    //     margin-top: 0.9rem;
+    //     width: 28rem;
+    //     p {
+    //       font-size: 2rem;
+    //       margin-bottom: 0.625rem;
+    //     }
+    //     span {
+    //       font-size: 0.6rem;
+    //     }
+    //   }
+    //   img {
+    //     margin-top: 1.875rem;
+    //   }
+    // }
+    
+    // .achievements {
+    //   width: 100%;
+    //   align-items: center;
+    //   flex-wrap: wrap;
+    //   justify-content: center;
+    //   gap: 0.3rem;
+    //   .content {
+    //     display: flex;
+    //     align-items: center;
+    //     gap: 0.4rem;
+    //   }
+    //   #number {
+    //     font-weight: bolder;
+    //     font-size: 2.4rem;
+    //   }
+    //   #text {
+    //     font-size: 0.6rem;
+    //     width: 3.875rem;
+    //   }
+    // }
+    
+    // .services {
+    //   width: 100%;
+    //   margin-top: 3.75rem;
+    //   display: flex;
+    //   flex-direction: column-reverse;
+    //   justify-content: center;
+    //   align-items: center;
+    
+    //   .left-container {
+    //     color: white;
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: space-evenly;
+    //     width: 48%;
+    //     height: 33.75rem;
+    //     h1 {
+    //       font-size: 3.75rem;
+    //       margin-bottom: 1rem;
+    //     }
+    //     p {
+    //       width: 80%;
+    //     }
+    //     button {
+    //       width: 40%;
+    //       padding: 1rem;
+    //       background-color: #0b0d7b;
+    //       color: white;
+    //       font-weight: bold;
+    //       border-radius: 2rem;
+    //     }
+    //   }
+    //   .right-container {
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center;
+    //     justify-content: center;
+    //     .card {
+    //       width: 94%;
+    //       display: flex;
+    //       justify-content: start;
+    //       background-color: white;
+    //       gap: 3.75rem;
+    //       align-items: center;
+    //       .image {
+    //         width: 4.688rem;
+    //         height: 4.688rem;
+    //         background-color: rgb(151, 151, 151);
+    //       }
+    //       .text {
+    //         p {
+    //           margin-top: 0.4rem;
+    //           font-size: 0.8rem;
+    //         }
+    //       }
+    //     }
+    //   } */
