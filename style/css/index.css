@@ -216,7 +216,6 @@ header nav ul #burger-button {
   align-items: center;
   justify-content: space-between;
   color: white;
-  font-size: 3.75rem;
 }
 .portofolio .portofolio-head h1 {
   font-size: 3.75rem;
@@ -238,8 +237,9 @@ header nav ul #burger-button {
   display: none; /* Safari and Chrome */
 }
 .portofolio .portofolio-container {
+  background-color: aquamarine;
   width: 100%;
-  height: 500px;
+  height: 26rem;
   margin-top: 3.125rem;
   display: flex;
   flex-wrap: wrap;
