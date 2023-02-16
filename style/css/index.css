@@ -331,7 +331,7 @@ header nav ul #burger-button {
   }
   .hero .title {
     margin-top: 0.9rem;
-    width: 28rem;
+    width: 100%;
   }
   .hero .title p {
     font-size: 2rem;
