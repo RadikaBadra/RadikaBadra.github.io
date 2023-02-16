@@ -65,9 +65,9 @@ body {
   background-color: transparent;
   border: none;
 }
-.pop-up-menu ul button img {
-  width: 2rem;
-  border: none;
+.pop-up-menu ul button i {
+  font-size: 2rem;
+  color: white;
 }
 
 header nav {
@@ -240,7 +240,6 @@ header nav ul #burger-button {
   display: none; /* Safari and Chrome */
 }
 .portofolio .portofolio-container {
-  background-color: aquamarine;
   width: 100%;
   height: 26rem;
   margin-top: 3.125rem;
